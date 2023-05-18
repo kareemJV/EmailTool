@@ -24,7 +24,7 @@ public class sucheEmail extends EmailTool {
 
             for (String email : emailAddresse) {
                 System.out.println(email);
-                myList.add(email);
+                myList.add(email); // Hier werden die Emails in einer Liste gespeichert, falls man die mit dem anderen Tool verwenden möchte. Mit einer Schleife zb
                 System.out.println(myList.toString());
             }
 
